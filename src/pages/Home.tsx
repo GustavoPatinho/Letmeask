@@ -22,7 +22,7 @@ export function Home() {
     }
     history.push('rooms/new');  
   }
-  
+  // function
   async function handleJoinRoom(event:FormEvent) {
     event.preventDefault();
     if (roomCode.trim() === ''){
